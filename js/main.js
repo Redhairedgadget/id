@@ -54,7 +54,7 @@ $('form[name=email]').submit(function(event){
     let newElement = document.createElement('p');
     $.get(Url, function(data){
         document.getElementById('response').appendChild(newElement);
-        newElement.innerText = "Response from first post on 'https://jsonplaceholder.typicode.com/posts': " + "\n" + data[1].body;
+        newElement.innerText = "Response from first post on https://jsonplaceholder.typicode.com/posts:" + "\n" + data[1].body;
     });
 
     $('#modal').modal('show');
