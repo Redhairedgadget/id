@@ -121,6 +121,7 @@ footer{
     height: 40vh;
     background-color: var(--footer);
     color: white;
+    overflow: hidden;
 }
 
 .fab {
