@@ -1,6 +1,6 @@
 /* Base */
 
-root{
+:root{
     --footer: #DB5461;
     --detail: #243c4f;
 }
