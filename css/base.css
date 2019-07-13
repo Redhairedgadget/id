@@ -45,7 +45,7 @@ body{
 #loader {
 	position: fixed;
     top: 50%;
-    left: 47%;
+    left: 46%;
 	z-index: 9999;
 }
 
@@ -161,7 +161,7 @@ footer{
 }
 
 
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (min-height: 1024px){
 
     .form-m{
         margin-top: 170px !important;
