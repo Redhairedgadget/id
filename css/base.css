@@ -1,0 +1,158 @@
+/* Base */
+
+root{
+    --footer: #DB5461;
+    --detail: #243c4f;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+
+.align-items-center{
+    align-items: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.h-100{
+    height: 100% !important;
+}
+
+.section{
+    width: 100%;
+
+}
+
+/* Header */
+
+#loaded{
+    top:0;
+    left: 0;
+    display: none;
+    z-index: 9998;
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+
+#loader {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+	z-index: 9999;
+}
+
+.masterhead{
+    width: 100%;
+    height: 110vh;
+    color: white;
+    background: url('../media/clouds.svg'), no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 30px;
+    font-weight: bold;
+}
+
+.number{
+    font-size: 40pt;
+}
+
+/* Features */
+.features{
+    background: white;
+    font-size: 12pt;
+}
+
+/* Newsletter */
+.newsletter {
+    height: 60vh;
+    background: #19beda;
+    color: white;
+}
+
+.newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.newsletter .content h2 {
+    margin-bottom: 40px;
+
+}
+.newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+}
+
+.newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid var(--detail);
+}
+.newsletter .content .btn {
+    min-height: 50px;
+    border-radius:0;
+    background: var(--detail);
+    color: #fff;
+    font-weight:600;
+}
+
+#modal{
+    color: var(--detail);
+}
+
+/* Footer */
+
+footer{
+    height: 40vh;
+    background-color: var(--footer);
+    color: white;
+}
+
+.fab {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    transition: color .15s ease-out;
+    text-decoration: none !important;
+}
+
+.fab:hover {
+    color: black;
+}
+
+/* Medias */
+
+@media (max-width: 400px){
+    .h1, h1{
+     font-size: 1.5em;
+    }
+    .number{
+        font-size: 30pt;
+
+    }
+
+    .d-block{
+        font-size: 1em;
+    }
+}
+
+
