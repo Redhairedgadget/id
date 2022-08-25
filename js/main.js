@@ -13,7 +13,7 @@ $(window).on("load", function(){
 });
 
 // Countdown
-let countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+let countDownDate = new Date().getTime() * 1.003;
 
 let x = setInterval(function () {
 
